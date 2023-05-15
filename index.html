@@ -1,146 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="'stylesheet" href= "style.css" >
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="'stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Document</title>
-</head>
-<body>
-  
-  
-  
-  
-  <section class="navbar" style="background-image: url('https://wallpapers.com/images/hd/medical-background-aketl6830dizi9kn.jpg');">
-    
-  
-  <header class=" bg-white/30 backdrop-blur-lg shadow-lg ">
-    <nav class="container mx-auto px-4 py-8 flex justify-between items-center flex-wrap md:flex-no-wrap relative ">
-      <div class="flex items-center">
-        <a href="#" class="flex-shrink-0 mr-4">
-          <img class="h-8 w-8" src="your-logo.png" alt="Logo">
-        </a>
-        <a href="#" class="text-xl font-bold text-blue-600">Your Company Name</a>
-      </div>
-      <div class="block md:hidden">
-        <button class="flex items-center px-3 py-2 border rounded text-gray-600 border-gray-600 hover:text-blue-600 hover:border-blue-600 focus:outline-none">
-          <svg class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M18 14.013H2v-1.999h16v1.999zM18 9.987H2v-1.999h16v1.999zM18 5.96H2V3.961h16v1.999z" clip-rule="evenodd" />
-          </svg>
-        </button>
-      </div>
-      <div class="hidden md:block flex-grow">
-        <ul class="flex justify-end">
-          <li class="mr-6">
-            <a href="#" class="text-gray-600 hover:text-blue-600">Home</a>
-          </li>
-          <li class="mr-6">
-            <a href="#" class="text-gray-600 hover:text-blue-600">About</a>
-          </li>
-          <li class="mr-6">
-            <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
-          </li>
-          <li class="mr-6">
-            <a href="#" class="text-gray-600 hover:text-blue-600">Products</a>
-          </li>
-          <li class="mr-6">
-            <a href="#" class="text-gray-600 hover:text-blue-600">Services</a>
-          </li>
-        </ul>
-      </div>
-      <div class="flex items-center">
-        <form action="#" class="flex items-center">
-          <div class="flex items-center border rounded-full bg-gray-100 hover:bg-gray-200">
-            <input type="text" class="py-1 px-2 w-64 rounded-full bg-gray-100 focus:outline-none" placeholder="Search...">
-            <button type="submit" class="bg-blue-600 text-white rounded-full py-1 px-2 mx-1 hover:bg-blue-700 focus:outline-none">
-              <i class="fas fa-search"></i>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section
+      class="navbar"
+      style="
+        background-image: url('https://wallpapers.com/images/hd/medical-background-aketl6830dizi9kn.jpg');
+      "
+    >
+      <header class="bg-white/30 backdrop-blur-lg shadow-lg">
+        <nav
+          class="container mx-auto px-4 py-8 flex justify-between items-center flex-wrap md:flex-no-wrap relative"
+        >
+          <div class="flex items-center">
+            <a href="#" class="flex-shrink-0 mr-4">
+              <img class="h-8 w-8" src="your-logo.png" alt="Logo" />
+            </a>
+            <a href="#" class="text-xl font-bold text-black-800 hover:text-blue-600"
+              >Medico Hub</a
+            >
+          </div>
+          <div class="block md:hidden">
+            <button
+              class="flex items-center px-3 py-2 border rounded text-gray-600 border-gray-600 hover:text-blue-600 hover:border-blue-600 focus:outline-none"
+            >
+              <svg class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M18 14.013H2v-1.999h16v1.999zM18 9.987H2v-1.999h16v1.999zM18 5.96H2V3.961h16v1.999z"
+                  clip-rule="evenodd"
+                />
+              </svg>
             </button>
           </div>
-        </form>
-        <div class="ml-4">
-          <a href="./login.html" class="text-blue-600 hover:text-blue-800 font-medium">Login / Signup</a>
+          <div class="hidden md:block flex-grow">
+            <ul class="flex justify-end">
+              <li class="mr-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600 text-xl">Home</a>
+              </li>
+              <li class="mr-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600 text-xl">About</a>
+              </li>
+              <li class="mr-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600 text-xl"
+                  >Contact</a
+                >
+              </li>
+              <li class="mr-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600 text-xl"
+                  >Products</a
+                >
+              </li>
+              <li class="mr-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600 text-xl"
+                  >Services</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-center">
+            <form action="#" class="flex items-center">
+              <div
+                class="flex items-center border rounded-full bg-gray-100 hover:bg-gray-200"
+              >
+                <input
+                  type="text"
+                  class="py-1 px-2 w-64 rounded-full bg-gray-100 focus:outline-none"
+                  placeholder="Search..."
+                />
+                <button
+                  type="submit"
+                  class="bg-blue-600 text-white rounded-full py-1 px-2 mx-1 hover:bg-blue-700 focus:outline-none"
+                >
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </form>
+            <div class="ml-4">
+              <a
+                href="./login.html"
+                class="text-blue-600 hover:text-blue-800 font-medium"
+                >Login / Signup</a
+              >
+            </div>
+          </div>
+        </nav>
+        <div class="hidden md:block">
+          <hr class="border-t border-gray-200 my-0 py-0" />
+        </div>
+      </header>
+
+      <section class="py-20 relative">
+        <div class="container mx-auto px-4">
+          <div class="max-w-4xl mx-auto text-center">
+            <h1
+              class="text-4xl lg:text-6xl text-white font-bold mb-6 leading-tight"
+            >
+              Medicine and Blood Delivery Services
+            </h1>
+            <p class="text-white-200 text-lg mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              tempus, turpis ac tristique imperdiet, odio velit blandit metus,
+              sit amet mollis elit augue ac urna. Quisque in augue ac lorem
+              bibendum pellentesque. Sed porttitor odio at sem bibendum iaculis.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia curae; Integer sagittis sapien ligula, non lacinia
+              ex lacinia vel.
+            </p>
+            <a
+              href="#"
+              class="bg-white text-blue-500 py-3 px-8 rounded-full font-bold hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out inline-block"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="bg-grey relative py-16">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center relative z-10"
+      >
+        <div class="md:w-1/2 lg:w-2/5 mb-8 md:mb-0">
+          <img
+            class="rounded-lg shadow-md hover:shadow-lg transition duration-300"
+            src="https://dummyimage.com/600x400/000/fff"
+            alt="About Us Image"
+          />
+        </div>
+        <div class="md:w-1/2 lg:w-3/5 md:pl-12">
+          <h2 class="text-3xl font-bold mb-4 text-gray-800">About Us</h2>
+          <p class="text-lg text-gray-600 mb-6">
+            We are a leading provider of medical and blood delivery services,
+            dedicated to improving the health and well-being of communities
+            across the world.
+          </p>
+          <p class="text-lg text-gray-600 mb-6">
+            Our team of expert professionals works tirelessly to ensure that our
+            customers receive the highest quality products and services,
+            delivered with care and compassion.
+          </p>
         </div>
       </div>
-    </nav>
-    <div class="hidden md:block">
-      <hr class="border-t border-gray-200 my-0 py-0">
-    </div>
-  </header>
-  
+    </section>
 
-  
-  <section class=" py-20 relative">
-    <div class="container mx-auto px-4 ">
-      <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-4xl lg:text-6xl text-white font-bold mb-6 leading-tight">Medicine and Blood Delivery Services</h1>
-        <p class="text-white-200 text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus, turpis ac tristique imperdiet, odio velit blandit metus, sit amet mollis elit augue ac urna. Quisque in augue ac lorem bibendum pellentesque. Sed porttitor odio at sem bibendum iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer sagittis sapien ligula, non lacinia ex lacinia vel.</p>
-        <a href="#" class="bg-white text-blue-500 py-3 px-8 rounded-full font-bold hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out inline-block">Learn More</a>
-      </div>
-    </div>
-  </section>
-</section>
-  
+    <div class="w-full bg-white my-10">
+      <div class="container w-full max-w-[1440px] mx-auto">
+        <div class="w-full gap-8 flex flex-col justify-center items-center">
+          <div class="w-full pl-[7.25rem]">
+            <p class="text-3xl font-bold mb-4 text-gray-800">Our Categories</p>
+          </div>
+          <div
+            class="w-full flex justify-center items-center gap-y-5 gap-x-10 flex-wrap"
+          >
+            <div
+              class="flex bg-gray-100 py-10 px-6 h-10 gap-5 shadow-2xl rounded-md justify-center items-center"
+            >
+              <img
+                class="w-10 h-5"
+                src="./img/1000_F_133443217_l9D9FstCVExzZWTtAiglCffwaNjO6z4i.jpg"
+              />
+              <p>Category 1</p>
+            </div>
 
-  <section class="bg-grey relative py-16 ">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center relative z-10">
-      <div class="md:w-1/2 lg:w-2/5 mb-8 md:mb-0">
-        <img class="rounded-lg shadow-md hover:shadow-lg transition duration-300" src="https://dummyimage.com/600x400/000/fff" alt="About Us Image">
-      </div>
-      <div class="md:w-1/2 lg:w-3/5 md:pl-12">
-        <h2 class="text-3xl font-bold mb-4 text-gray-800">About Us</h2>
-        <p class="text-lg text-gray-600 mb-6">We are a leading provider of medical and blood delivery services, dedicated to improving the health and well-being of communities across the world.</p>
-        <p class="text-lg text-gray-600 mb-6">Our team of expert professionals works tirelessly to ensure that our customers receive the highest quality products and services, delivered with care and compassion.</p>
-      </div>
-    </div>
-  </section>
- 
-  <div class="w-full bg-white">
-    <div class="container w-full  max-w-[1440px] mx-auto">
-      <div class="w-full flex-justify-center items-center">
-        <div  class="flex bg-red-200 h-10 w-[10rem] shadow-lg rounded-md justify-center items-center"> 
-          <img class ="w-10 h-5" src="./img/1000_F_133443217_l9D9FstCVExzZWTtAiglCffwaNjO6z4i.jpg">
-<p>Category 1</p>
+            <div
+              class="flex bg-gray-100 py-10 px-6 h-10 gap-5 h-10 shadow-lg rounded-md justify-center items-center"
+            >
+              <img
+                class="w-10 h-5"
+                src="./img/1000_F_133443217_l9D9FstCVExzZWTtAiglCffwaNjO6z4i.jpg"
+              />
+              <p>Category 2</p>
+            </div>
+
+            <div
+              class="flex bg-gray-100 py-10 px-6 h-10 gap-5 h-10 shadow-lg rounded-md justify-center items-center"
+            >
+              <img
+                class="w-10 h-5"
+                src="./img/1000_F_133443217_l9D9FstCVExzZWTtAiglCffwaNjO6z4i.jpg"
+              />
+              <p>Category 3</p>
+            </div>
+
+            <div
+              class="flex bg-gray-100 py-10 px-6 h-10 gap-5 h-10 shadow-lg rounded-md justify-center items-center"
+            >
+              <img
+                class="w-10 h-5"
+                src="./img/1000_F_133443217_l9D9FstCVExzZWTtAiglCffwaNjO6z4i.jpg"
+              />
+              <p>Category 4</p>
+            </div>
+
+            <div
+              class="flex bg-gray-100 py-10 px-6 h-10 gap-5 h-10 shadow-lg rounded-md justify-center items-center"
+            >
+              <img
+                class="w-10 h-5"
+                src="./img/1000_F_133443217_l9D9FstCVExzZWTtAiglCffwaNjO6z4i.jpg"
+              />
+              <p>Category 5</p>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
-  </div>
-
-  
 
 
 
+    <div class="w-full ">
+      <h1 class="text-3xl font-bold mb-4 text-gray-800 pl-[7.25rem]">
+        Medicines Available
+      </h1>
+      <div
+        class=" w-[100w] gap-10 py-10  flex-nowrap flex items-center overflow-x-scroll max-w-[90w]"
+      >
+        <div
+          class=" hover:scale-125 ease-in duration-300 w-[20rem] flex flex-col rounded-lg shadow-lg overflow-hidden"
+        >
+          <div class="flex-shrink-0">
+            <img
+              class="h-48 w-full object-cover"
+              src="https://via.placeholder.com/500x300"
+              alt="Medicine"
+            />
+          </div>
+          <div class="flex-1 bg-white p-6  flex flex-col justify-between">
+            <div class="flex-1">
+              <a href="#" class="block mt-2">
+                <p class="text-xl font-semibold text-gray-900">Medicine Name</p>
+                <p class="mt-3 text-base text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  nec condimentum quam.
+                </p>
+              </a>
+            </div>
+            <div class="mt-6 flex items-center">
+              <div class="flex-shrink-0">
+                <a href="#" class="text-indigo-600 hover:text-indigo-700">
+                  Learn more
+                </a>
+              </div>
+              <div class="ml-4 flex-shrink-0">
+                <button
+                  class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-3 rounded-full"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class=" hover:scale-125 ease-in duration-300 w-[20rem] flex flex-col rounded-lg shadow-lg overflow-hidden"
+        >
+          <div class="flex-shrink-0">
+            <img
+              class="h-48 w-full object-cover"
+              src="https://via.placeholder.com/500x300"
+              alt="Medicine"
+            />
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <a href="#" class="block mt-2">
+                <p class="text-xl font-semibold text-gray-900">Medicine Name</p>
+                <p class="mt-3 text-base text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  nec condimentum quam.
+                </p>
+              </a>
+            </div>
+            <div class="mt-6 flex items-center">
+              <div class="flex-shrink-0">
+                <a href="#" class="text-indigo-600 hover:text-indigo-700">
+                  Learn more
+                </a>
+              </div>
+              <div class="ml-4 flex-shrink-0">
+                <button
+                  class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-3 rounded-full"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="hover:scale-125 ease-in duration-300 w-[20rem] flex flex-col rounded-lg shadow-lg overflow-hidden"
+        >
+          <div class="flex-shrink-0">
+            <img
+              class="h-48 w-full object-cover"
+              src="https://via.placeholder.com/500x300"
+              alt="Medicine"
+            />
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <a href="#" class="block mt-2">
+                <p class="text-xl font-semibold text-gray-900">Medicine Name</p>
+                <p class="mt-3 text-base text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  nec condimentum quam.
+                </p>
+              </a>
+            </div>
+            <div class="mt-6 flex items-center">
+              <div class="flex-shrink-0">
+                <a href="#" class="text-indigo-600 hover:text-indigo-700">
+                  Learn more
+                </a>
+              </div>
+              <div class="ml-4 flex-shrink-0">
+                <button
+                  class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-3 rounded-full"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-
-    <!-- <div class="swiper">
-    <div class="swiper-wrapper">
-     <div class="swiper-slide"> 
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div class="hover:scale-125 ease-in duration-300 w-[20rem] flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://via.placeholder.com/500x300" alt="Medicine">
+          <img
+            class="h-48 w-full object-cover"
+            src="https://via.placeholder.com/500x300"
+            alt="Medicine"
+          />
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">Medicine Name</p>
-              <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.</p>
+              <p class="mt-3 text-base text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                nec condimentum quam.
+              </p>
             </a>
           </div>
           <div class="mt-6 flex items-center">
@@ -150,23 +366,31 @@
               </a>
             </div>
             <div class="ml-4 flex-shrink-0">
-              <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full">
+              <button
+                class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-3 rounded-full"
+              >
                 Buy Now
               </button>
             </div>
           </div>
         </div>
-      </div></div>
-     <div class="swiper-slide"> 
-      <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      </div>
+      <div class="hover:scale-125 ease-in duration-300 w-[20rem] flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div class="flex-shrink-0">
-          <img class="h-48 w-full object-cover" src="https://via.placeholder.com/500x300" alt="Medicine">
+          <img
+            class="h-48 w-full object-cover"
+            src="https://via.placeholder.com/500x300"
+            alt="Medicine"
+          />
         </div>
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
             <a href="#" class="block mt-2">
               <p class="text-xl font-semibold text-gray-900">Medicine Name</p>
-              <p class="mt-3 text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.</p>
+              <p class="mt-3 text-base text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                nec condimentum quam.
+              </p>
             </a>
           </div>
           <div class="mt-6 flex items-center">
@@ -176,41 +400,50 @@
               </a>
             </div>
             <div class="ml-4 flex-shrink-0">
-              <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full">
+              <button
+                class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-3 rounded-full"
+              >
                 Buy Now
               </button>
             </div>
           </div>
         </div>
-      </div></div>
-      
       </div>
-     <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div> -->
-       
-      
-  
-   
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
- 
-  
-  
-  
-  
-  
-  
-  
-  
-</body>
+      <div class="hover:scale-125 ease-in duration-300 w-[20rem] flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex-shrink-0">
+          <img
+            class="h-48 w-full object-cover"
+            src="https://via.placeholder.com/500x300"
+            alt="Medicine"
+          />
+        </div>
+        <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div class="flex-1">
+            <a href="#" class="block mt-2">
+              <p class="text-xl font-semibold text-gray-900">Medicine Name</p>
+              <p class="mt-3 text-base text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                nec condimentum quam.
+              </p>
+            </a>
+          </div>
+          <div class="mt-6 flex items-center">
+            <div class="flex-shrink-0">
+              <a href="#" class="text-indigo-600 hover:text-indigo-700">
+                Learn more
+              </a>
+            </div>
+            <div class="ml-4 flex-shrink-0">
+              <button
+                class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-3 rounded-full"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

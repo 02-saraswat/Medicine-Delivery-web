@@ -1,0 +1,371 @@
+.head {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px  rgba(0, 0, 0, 0.06);
+  }
+  .navbar {
+    text-decoration: none;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    position: relative;
+  }
+  
+  a:link{
+    text-decoration: none;
+  }
+  
+  
+  .logo{
+    display: flex;
+    align-items: center;  
+  }
+  
+  .logo-1{
+    flex-shrink: 0;
+    margin-right: 4px;
+  }
+  
+  .img1{
+    height: 8px;
+    width: 8px;
+  }
+  
+  .medico{
+    font-size: 1.25rem; 
+    font-weight: 900; 
+    color: #1f2937;
+  }
+  
+  .medico:hover{
+    color: #3b82f6;
+  }
+  
+  .button{
+      display: block;
+    }
+    
+    @media (min-width: 768px) {
+      .button {
+        display: none;
+      }
+    }
+  
+  .button1{
+      display: flex;
+      align-items: center;
+      padding-left: 0.75rem; /* Equivalent to px-3 */
+      padding-right: 0.75rem; /* Equivalent to px-3 */
+      padding-top: 0.5rem; /* Equivalent to py-2 */
+      padding-bottom: 0.5rem; /* Equivalent to py-2 */
+      border: 1px solid #718096; /* Equivalent to border */
+      border-radius: 0.25rem; /* Equivalent to rounded */
+      color: #718096; /* Equivalent to text-gray-600 */
+      border-color: #718096; /* Equivalent to border-gray-600 */
+    }
+    
+    .button2:hover {
+      color: #3b82f6; /* Equivalent to hover:text-blue-600 */
+      border-color: #3b82f6; /* Equivalent to hover:border-blue-600 */
+    }
+    
+    .button2:focus {
+      outline: none; /* Equivalent to focus:outline-none */
+    }
+  
+    .button3{
+      height: 3px;
+      width: 3px;
+    }
+  
+  .names{
+      display: none;
+      flex-grow: 1; /* Equivalent to hidden */
+    }
+    
+    @media (min-width: 768px) {
+      .names {
+        display: block; /* Equivalent to md:block */
+      }
+    }
+    
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    li {
+      margin-right: 1rem;
+    }
+  
+    .order{
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .home{
+      margin-right: 1.5rem;
+    }
+  
+    .home1{
+      color: #718096; /* Equivalent to text-gray-600 */
+    font-size: 1.25rem;
+    }
+  
+    .home1:hover{
+      color: #3b82f6;
+    }
+  
+    .about{
+      margin-right: 1.5rem;
+    }
+  
+    .about1{
+      color: #718096; /* Equivalent to text-gray-600 */
+    font-size: 1.25rem;
+    }
+  
+    .about1:hover{
+      color: #3b82f6;
+    }
+  
+    .contact{
+      margin-right: 1.5rem;
+    }
+    .contact1{
+      color: #718096; /* Equivalent to text-gray-600 */
+    font-size: 1.25rem;
+    }
+  
+    .contact1:hover{
+      color: #3b82f6;
+    }
+  
+    .product{
+      margin-right: 1.5rem;
+    }
+  
+    .product1{
+      color: #718096; /* Equivalent to text-gray-600 */
+    font-size: 1.25rem;
+    }
+  
+    .product1:hover{
+      color: #3b82f6;
+    }
+  
+    .services{
+      margin-right: 1.5rem;
+    }
+  
+    .services1{
+      color: #718096; /* Equivalent to text-gray-600 */
+    font-size: 1.25rem;
+    }
+  
+    .services1:hover{
+      color: #3b82f6;
+    }
+  
+    .bar{
+      display: flex;
+      align-items: center;
+    }
+  
+    .form1{
+      display: flex;
+      align-items: center;
+    }
+  
+    .form2 {
+      display: flex; /* Equivalent to flex */
+      align-items: center; /* Equivalent to items-center */
+      border: 1px solid #cbd5e0; /* Equivalent to border */
+      border-radius: 9999px; /* Equivalent to rounded-full */
+      background-color: #f7fafc; /* Equivalent to bg-gray-100 */
+    }
+    .form2:hover {
+      background-color: #edf2f7; /* Equivalent to hover:bg-gray-200 */
+    }
+    
+    
+    
+    .search{
+       
+        padding-top: 0.25rem; /* Equivalent to py-1 */
+        padding-bottom: 0.25rem; /* Equivalent to py-1 */
+        padding-left: 0.5rem; /* Equivalent to px-2 */
+        padding-right: 0.5rem; /* Equivalent to px-2 */
+        width: 16rem; /* Equivalent to w-64 */
+        border-radius: 9999px; /* Equivalent to rounded-full */
+        background-color: #f7fafc; /* Equivalent to bg-gray-100 */
+        outline: none; /* Equivalent to focus:outline-none */
+    }
+  
+    .submit {
+      background-color: #1d4ed8; /* Equivalent to bg-blue-600 */
+      color: #fff; /* Equivalent to text-white */
+      border-radius: 9999px; /* Equivalent to rounded-full */
+      padding-top: 0.25rem; /* Equivalent to py-1 */
+      padding-bottom: 0.25rem; /* Equivalent to py-1 */
+      padding-left: 0.5rem; /* Equivalent to px-2 */
+      padding-right: 0.5rem; /* Equivalent to px-2 */
+      margin-left: 0.25rem; /* Equivalent to mx-1 */
+      margin-right: 0.25rem; /* Equivalent to mx-1 */
+      outline: none; /* Equivalent to focus:outline-none */
+    }
+    
+    .submit:hover {
+      background-color: #1e40af; /* Equivalent to hover:bg-blue-700 */
+    }
+  
+    .shopping{
+      position: relative;
+      text-align: right;
+    }
+    .shopping img{
+      width: 30px;
+    }
+    
+    .shopping span{
+      background: red;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      position: absolute;
+      top: -5px;
+      left: 80%;
+      padding: 3px 10px;
+    }
+  
+  
+    .media {
+      display: none; /* Equivalent to hidden */
+    }
+    
+    @media (min-width: 768px) {
+      .media {
+        display: block; /* Equivalent to md:block */
+      }
+    }
+    
+    .query{
+      
+        border-top: 1px solid #e2e8f0; /* Equivalent to border-t */
+        border-color: #e2e8f0; /* Equivalent to border-gray-200 */
+        margin-top: 0; /* Equivalent to my-0 */
+        margin-bottom: 0; /* Equivalent to my-0 */
+        padding-top: 0; /* Equivalent to py-0 */
+        padding-bottom: 0; /* Equivalent to py-0 */
+      
+    }
+    
+    .list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-top: 50px;
+      }
+      .list .item{
+        text-align: center;
+        background-color: #DCE0E1;
+        padding: 20px;
+        box-shadow: 0 50px 50px #757676;
+        letter-spacing: 1px;
+      }
+      .list .item img{
+        width: 90%;
+      }
+      .list .item .title{
+        font-weight: 600;
+      }
+      .list .item .price{
+        margin: 10px;
+      }
+      .list .item button{
+        background-color: #1C1F25;
+        color: #fff;
+        width: 100%;
+        padding: 10px;
+      }
+      .card{
+        position: fixed;
+        top:0;
+        left: 100%;
+        width: 500px;
+        background-color: #453E3B;
+        height: 100vh;
+        transition: 0.5s;
+      }
+      .active .card{
+        left: calc(100% - 500px);
+      }
+      .active .container{
+       transform: translateX(-200px);
+      }
+      .card h1{
+        color: #E8BC0E;
+        font-weight: 100;
+        margin: 0;
+        padding: 0 20px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+      }
+      .card .checkOut{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      
+      }
+      .card .checkOut div{
+        background-color: #E8BC0E;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .card .checkOut div:nth-child(2){
+        background-color: #1C1F25;
+        color: #fff;
+      }
+      .listCard li{
+        display: grid;
+        grid-template-columns: 100px repeat(3, 1fr);
+        color: #fff;
+        row-gap: 10px;
+      }
+      .listCard li div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .listCard li img{
+        width: 90%;
+      }
+      .listCard li button{
+        background-color: #fff5;
+        border: none;
+      }
+      .listCard .count{
+        margin: 0 10px;
+      }

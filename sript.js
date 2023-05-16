@@ -100,7 +100,7 @@ function reloadCard(){
                 listCard.appendChild(newDiv);
         }
     })
-    total.innerText = totalPrice.toLocaleString();
+    total.innerText = "Pay " +totalPrice.toLocaleString();
     quantity.innerText = count;
 }
 function changeQuantity(key, quantity){
